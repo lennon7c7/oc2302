@@ -1,0 +1,61 @@
+# Image File
+!/image/no_image.jpg
+
+# Image Cache Files
+/image/cache/*
+!/image/cache/index.html
+
+# System Cache Files
+/system/storage/cache/*
+!/system/storage/cache/index.html
+
+# Modification Files
+/system/storage/modification/*
+!/system/storage/modification/index.html
+
+# Templates Files
+/image/templates/*
+/image/templates/default.jpg
+
+# Download Files
+/system/storage/download/*
+!/system/storage/download/index.html
+
+# Upload Files
+/system/storage/upload/*
+!/system/storage/upload/index.html
+
+# Flags 
+# remove sharp char if you want to add flags to gitignore
+# /flags/*
+
+# Log Files
+/system/storage/logs/*
+!/system/storage/logs/index.html
+
+# If you want to ignore install file use following lines [on development mode]
+# /backup.install/*
+# /install/*
+
+# Ignore all vendor files included by composer and the lock file
+/tests/phpunit/vendor/*
+/tests/phpunit/composer.lock
+/vendor/*
+
+# Test Config File
+/tests/phpunit/bootstrap.php
+
+# IDE Project files
+/.idea
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# VQmod Module
+/vqmod/checked.cache
+/vqmod/mods.cache
+/vqmod/logs/*
+!/vqmod/logs/index.html
+/vqmod/vqcache/*
+!/vqmod/vqcache/index.html
